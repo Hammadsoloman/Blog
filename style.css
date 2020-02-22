@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Kreon|ZCOOL+XiaoWei&display=swap');
+
+*{
+    padding : 0;
+    margin:0 ;
+    font-family :  Roboto, sans-serif;
+}
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("img/9127.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+} 
+
+.container{
+    max-width: 1300px;
+}
+
+header{
+    width:auto ;
+    overflow: auto;
+    margin-top:1% ;
+}
+
+.logo{
+    float: left;
+
+}
+
+.logo h2{
+    color:#fff ;
+    margin-left: 20px;
+    font-size: 30px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    width: auto;
+    overflow: auto;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px 15px;
+
+}
+
+nav ul li:hover{
+    border: 1px solid #fff;
+
+}
+
+nav ul .active{
+    border: 1px solid #fff;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:#fff ;
+    font-size: 18px;
+}
+
+nav ul .gold {
+    color: rgb(242,217, 31);
+ ;
+}
+
+section {
+    margin-top: 18%;
+    margin-left: 15%;
+    color: #eff5a1;
+    text-align: center;
+    font-size:25px;
+    font-style: oblique;
+    
+}
+
+footer{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 14%;
+    color: #fff;
+
+
+}
+
+
+
